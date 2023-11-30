@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.banner {
+  background: linear-gradient(
+    180deg,
+    #170c44 -3.18%,
+    #141327 58.72%,
+    #323a9d 79.91%,
+    #343d9d 93.81%,
+    #3f57ff 111.76%
+  );
+}
+
+.blur-effect {
+  background: linear-gradient(
+        to bottom right,
+        #4926d4 43%,
+        rgba(217, 217, 217, 0) 50%
+      )
+      bottom right / 50% 50% no-repeat,
+    linear-gradient(to bottom left, #4926d4 43%, rgba(217, 217, 217, 0) 50%)
+      bottom left / 50% 50% no-repeat,
+    linear-gradient(to top left, #4926d4 43%, rgba(217, 217, 217, 0) 50%) top
+      left / 50% 50% no-repeat,
+    linear-gradient(to top right, #4926d4 43%, rgba(217, 217, 217, 0) 50%) top
+      right / 50% 50% no-repeat;
+  filter: blur(25px);
+}
+
+.header .left,
+.header .right {
+  @apply flex flex-1 items-end justify-between text-[1rem];
+}
+
+.header .left svg {
+  @apply mx-0;
+}
+
+.header svg {
+  @apply relative bottom-[1.5px] mx-3;
+}
+
+.logo p {
+  text-shadow: 0px 0px 6.03000020980835px #ababab,
+    0px 0px 12.0600004196167px #ababab, 0px 0px 42.209999084472656px #ababab,
+    0px 0px 84.41999816894531px #ababab, 0px 0px 144.72000122070312px #ababab,
+    0px 0px 253.25999450683594px #ababab;
+}
+
+h2 {
+  text-shadow: 0px 0px 6.03000020980835px #b2b9fe;
+}
+
+.btnStart {
+  background: linear-gradient(
+    178deg,
+    #ff630c 1.73%,
+    #e05100 11.74%,
+    #f05600 25.25%,
+    #e46000 62.56%,
+    #d44000 85.52%,
+    #ad3400 98.27%
+  );
+  box-shadow: 0px 0px 30.61682px 0px #ff7b00, 0px 0px 61.23364px 0px #ff7b00;
+}
+
+.progress {
+  background-image: url("assets/mask.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.progress .body {
+  background: linear-gradient(
+    180deg,
+    #311c93 0%,
+    #1e1159 20.86%,
+    #1c1055 41.8%,
+    #180b50 51.04%,
+    #2a157a 61.51%,
+    #2b167f 79.38%,
+    #4726cf 100%
+  );
+}
+
+.progress svg {
+  @apply z-10 block;
+}
+
+.text p {
+  @apply text-center text-[#A4E5DA];
+}
+
+.services .item {
+  @apply flex-1 flex items-center justify-center bg-[#221463] text-center py-[94px] px-[8px] text-[19px] uppercase font-[600] rounded-[20px];
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+  border: 2px solid rgb(121, 41, 130);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .services .first .item {
+}
+
+.services .second .item {
+} */
+
+.services .item-1 {
+  background-image: url("assets/itemmask1.svg");
+}
+
+.services .item-2 {
+  background-image: url("assets/itemmask2.svg");
+}
+
+.services .item-3 {
+  background-image: url("assets/itemmask3.svg");
+}
+
+.services .item-4 {
+  background-image: url("assets/itemmask4.svg");
+}
+
+.services .item-5 {
+  background-image: url("assets/itemmask5.svg");
+}
+
+.services .item-6 {
+  background-image: url("assets/itemmask6.svg");
+}
+
+.services .item-7 {
+  background-image: url("assets/itemmask7.svg");
+}
+
+.end .item {
+  @apply z-10 text-[18px] text-[#6178FF];
+}
+
+.end .item.active {
+  @apply font-[600] text-white;
+}
+
+
