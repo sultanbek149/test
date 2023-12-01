@@ -21,10 +21,10 @@
 
 <body>
   <div class="wrapper">
-    <section class="banner h-fit xl:h-screen xl:max-h-[800px] pt-5">
+    <section class="banner h-fit xl:h-screen xl:max-h-[800px] pt-5 pb-20">
       <div class="header relative max-w-[1280px] h-[93px] mx-auto mb-[103px] overflow-hidden text-white z-10">
-        <div class="container !px-[3rem] flex items-end z-10">
-          <div class="left">
+        <div class="container !px-[3rem] flex justify-center xl:justify-normal items-end z-10">
+          <div class="left hidden">
             <a href="#">
               Космические услуги
             </a>
@@ -64,7 +64,7 @@
           </div>
 
 
-          <a href="#" class="logo flex flex-col text-center w-[120px] mx-10">
+          <a href="#" class="logo flex flex-col text-center w-[120px] mx-5">
             <img src="assets/logo.png" alt="logo" class="relative -bottom-3">
             <p class="text-[22px]">digital</p>
           </a>
@@ -112,19 +112,19 @@
       </div>
 
       <div class="container text-white">
-        <h1 class="title mb-6 uppercase text-[75px] leading-none font-[600]">
+        <h1 class="title mb-6 uppercase text-[45px] xl:text-[75px] leading-none font-[600]">
           окунуться <br>
           в будущее
         </h1>
 
-        <h2 class="desc relative text-[20px] font-[500] text-[#B2B9FE] mb-[75px]">
+        <h2 class="desc relative text-[17px] xl:text-[20px] font-[500] text-[#B2B9FE] mb-[75px]">
           Инновационное маркетинговое агентство полного <br>
           цикла, внедряющее передовые технологии
 
         </h2>
 
         <a href="#"
-          class="btnStart block w-fit hover:scale-105 transition-all font-[700] text-[35px] rounded-[50px] px-[65px] py-[5px] mb-[120px]">
+          class="btnStart block w-fit hover:scale-105 transition-all font-[700] text-[30px] xl:text-[35px] rounded-[50px] px-[65px] py-[5px]">
           START
         </a>
 
@@ -137,22 +137,29 @@
       <div class="container">
         <h3 class="mb-3 text-center text-white text-[35px] uppercase leading-none font-[700]">Впереди Трендов</h3>
 
-        <p class="desc text-center text-[#8F93E7] text-[22px] leading-none mb-[98px]">Мы разрабатываем решения в области
+        <p class="desc text-center text-[#8F93E7] text-[22px] leading-none mb-[60px] xl:mb-[98px]">Мы разрабатываем
+          решения в области
           digital маркетинга, <br>
           которые ускоряют рост
         </p>
 
-        <div class="progress w-full h-[89px] p-2 rounded-[5px] overflow-hidden mb-[34px]">
-
-          <div class="body relative rounded-[5px] h-full px-[80px]">
-            <img class="w-[100px] absolute rotate-[58deg] z-20 top-[45%] -translate-y-1/2 left-[27%]"
+        <div
+          class="hidden xl:block progress h-[800px] w-[120px] xl:w-full xl:h-[89px] mx-auto p-2 rounded-[5px] overflow-hidden mb-[34px]">
+          <div class="body relative rounded-[5px] h-full py-[80px] xl:py-0 xl:px-[80px]">
+            <img
+              class="w-[100px] absolute rotate-[148deg] xl:rotate-[58deg] z-20 top-[30%] xl:top-[45%] -translate-y-1/2 left-[4%] xl:left-[27%]"
               src="https://s3-alpha-sig.figma.com/img/3834/d0e7/a62d402ed09046bc1d0f532c0f8dfee2?Expires=1702252800&Signature=kUjmS7A3KF2-C9x0gC6qPMqkL4arGcRHF9LjKLAeq3nGaie9fduLJ~CBjioXt0TnZiNNytyZpsOaRNy4QAbUrX-P7A9Gu06zSpoMAgjxxwb126GY3r-aWAO4eCoSyUaWxTeHjW6QQ5RnCDDY7ra4A857Dt7MBuXnAqP~Ng4VwAM8~KUdUMlOwkEpmWQ33tGx-F1rYNK2C21u~XPCcwa4rN8RKP7Gq1zOKaXaJfMUbW7IZT3~44DcdQB65y0QckbmySNVubybEmrLgLkLthecKF3v25kEpwSmGnQcozisHjRwN7nSoW4JlxykhzbGS7qCOwugjoxqmGqjZ6bI54DdQQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
               alt="rocket">
 
 
-            <div class="path relative flex items-center justify-between h-full">
+            <div class="path relative flex flex-col xl:flex-row items-center justify-between h-full">
 
-              <div class="line absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-px bg-white w-[98%]  z-0">
+              <div
+                class="hidden xl:block line absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-px bg-white w-[98%]  z-0">
+              </div>
+
+              <div
+                class="xl:hidden line absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[98%] bg-white w-px z-0">
               </div>
 
 
@@ -216,12 +223,105 @@
           </div>
         </div>
 
-        <div class="text flex items-center justify-between text-[18px] text-white">
+        <div class="hidden xl:flex text items-center justify-between text-[18px] text-white">
           <p>Одно агентство</p>
           <p>Одна платформа</p>
           <p>Все Решения</p>
           <p>Маркетинг <br> Полного Цикла</p>
         </div>
+
+
+        <div class="flex justify-between items-center xl:hidden ">
+          <div
+            class="progress  h-[800px] w-[120px] xl:w-full xl:h-[89px] mx-auto p-2 rounded-[5px] overflow-hidden mb-[34px]">
+            <div class="body relative rounded-[5px] h-full py-[80px] xl:py-0 xl:px-[80px]">
+              <img
+                class="w-[100px] absolute rotate-[148deg] xl:rotate-[58deg] z-20 top-[30%] xl:top-[45%] -translate-y-1/2 left-[4%] xl:left-[27%]"
+                src="https://s3-alpha-sig.figma.com/img/3834/d0e7/a62d402ed09046bc1d0f532c0f8dfee2?Expires=1702252800&Signature=kUjmS7A3KF2-C9x0gC6qPMqkL4arGcRHF9LjKLAeq3nGaie9fduLJ~CBjioXt0TnZiNNytyZpsOaRNy4QAbUrX-P7A9Gu06zSpoMAgjxxwb126GY3r-aWAO4eCoSyUaWxTeHjW6QQ5RnCDDY7ra4A857Dt7MBuXnAqP~Ng4VwAM8~KUdUMlOwkEpmWQ33tGx-F1rYNK2C21u~XPCcwa4rN8RKP7Gq1zOKaXaJfMUbW7IZT3~44DcdQB65y0QckbmySNVubybEmrLgLkLthecKF3v25kEpwSmGnQcozisHjRwN7nSoW4JlxykhzbGS7qCOwugjoxqmGqjZ6bI54DdQQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                alt="rocket">
+
+
+              <div class="path relative flex flex-col xl:flex-row items-center justify-between h-full">
+
+                <div
+                  class="hidden xl:block line absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-px bg-white w-[98%]  z-0">
+                </div>
+
+                <div
+                  class="xl:hidden line absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[98%] bg-white w-px z-0">
+                </div>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                  <g filter="url(#filter0_f_2_133)">
+                    <circle cx="14" cy="14" r="10" fill="#06F9CD" />
+                  </g>
+                  <defs>
+                    <filter id="filter0_f_2_133" x="0" y="0" width="28" height="28" filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_2_133" />
+                    </filter>
+                  </defs>
+                </svg>
+
+                <svg class="active scale-[2.1]" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                  viewBox="0 0 28 28" fill="none">
+                  <g filter="url(#filter0_f_2_133)">
+                    <circle cx="14" cy="14" r="10" fill="#06F9CD" />
+                  </g>
+                  <defs>
+                    <filter id="filter0_f_2_133" x="0" y="0" width="28" height="28" filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_2_133" />
+                    </filter>
+                  </defs>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                  <g filter="url(#filter0_f_2_133)">
+                    <circle cx="14" cy="14" r="10" fill="#06F9CD" />
+                  </g>
+                  <defs>
+                    <filter id="filter0_f_2_133" x="0" y="0" width="28" height="28" filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_2_133" />
+                    </filter>
+                  </defs>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                  <g filter="url(#filter0_f_2_133)">
+                    <circle cx="14" cy="14" r="10" fill="#06F9CD" />
+                  </g>
+                  <defs>
+                    <filter id="filter0_f_2_133" x="0" y="0" width="28" height="28" filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_2_133" />
+                    </filter>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="text flex flex-col h-[620px] items-center justify-between text-[18px] text-white">
+            <p>Одно агентство</p>
+            <p>Одна платформа</p>
+            <p>Все Решения</p>
+            <p>Маркетинг <br> Полного Цикла</p>
+          </div>
+        </div>
+
+
+
 
 
       </div>
@@ -234,11 +334,13 @@
 
     <section class="services pt-[71px] pb-[179px] bg-[#221463]">
       <div class="container">
-        <div class="title text-[45px] text-center uppercase text-white mb-[86px] font-[700]">Космические услуги</div>
+        <div
+          class="title text-[30px] md:text-[45px] text-center uppercase text-white mb-[40px] xl:mb-[86px] font-[700]">
+          Космические услуги</div>
 
 
 
-        <div class="first flex flex-column xl:flex-row justify-between text-white gap-x-[23px] mb-5">
+        <div class="first flex flex-col md:flex-wrap md:flex-row gap-y-5 justify-center text-white gap-x-[23px] mb-5">
           <div class="item item-1">
             SMM - Таргетинг <br>
             Контент - Маркетинг
@@ -259,7 +361,7 @@
           </div>
         </div>
 
-        <div class="second flex flex-column xl:flex-row justify-between text-white gap-x-[23px]">
+        <div class="second flex flex-col gap-y-5 xl:flex-row justify-between text-white gap-x-[23px]">
           <div class="item item-5">
             Аналитика <br>
             Оптимизация
@@ -285,11 +387,21 @@
 
     <section class="end bg-[#1C1050] pt-[88px] pb-[120px]">
       <div class="container">
-        <div class="title text-[45px] text-center uppercase text-white mb-[86px] font-[700]">В ЧЁМ НАША СИЛА</div>
+        <div
+          class="title text-[30px] md:text-[45px] text-center uppercase text-white mb-[40px] xL:mb-[86px] font-[700]">В
+          ЧЁМ НАША СИЛА</div>
 
 
-        <div class="relative flex items-center justify-between text-center text-white uppercase">
-          <div class="line absolute top-[44%] left-1/2 -translate-x-1/2 -translate-y-1/2 h-[2px] bg-[#06F9CD] w-[90%] z-0"></div>
+        <div class="relative flex flex-col items-center justify-between text-center text-white uppercase">
+          <div
+            class="hidden xl:block line absolute top-[44%] left-1/2 -translate-x-1/2 -translate-y-1/2 h-[2px] bg-[#06F9CD] w-[90%] z-0">
+          </div>
+
+          <!-- <div
+            class="block xl:hidden line absolute top-[44%] left-1/2 -translate-x-1/2 -translate-y-1/2 h-[80%] bg-[#06F9CD] w-[2px] z-0">
+          </div> -->
+
+          
 
           <div class="item active">
             <img src="assets/end1.svg" alt="end1">
